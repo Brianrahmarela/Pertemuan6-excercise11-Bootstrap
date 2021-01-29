@@ -1,0 +1,51 @@
+.navbar-light .navbar-nav .nav-link.active {
+	color: white;
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 0px !important;
+	/* border: 1px solid rgba(0,0,0,.125); */
+	border-radius: 0.25rem;
+}
+
+
+/* Carousel */
+/* media query <576px (smal ke bwh)*/
+.d-block {
+	height: 300px;
+	/* object-fit: cover; */
+}
+
+.card-img-top {
+	
+	object-fit: contain;
+	height: 300px;
+}
+
+/* media query 576px (medium ke atas)*/
+@media (min-width: 576px) { 
+	.d-block {
+		height: 600px;
+		object-fit: cover;
+	}
+}
+/* .carousel {
+	height: 600px;
+} */
+/* #carouselExampleCaptions {
+	height: 600px;
+} */
+/* .carousel {
+	margin-bottom: 4rem;
+}
+.carousel-caption {
+	bottom: 3rem;
+	z-index: 10;
+}
